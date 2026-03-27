@@ -23,4 +23,21 @@ public class StatisticsHelper
 
         return sum;
     }
+    
+    public static double CalculateAverage(int[] values)
+    {
+        if (values == null)
+        {
+            throw new ArgumentNullException(nameof(values));
+        }
+
+        if (values.Length == 0)
+        {
+            throw new ArgumentException("Array cannot be empty.");
+        }
+
+        int sum = CalculateSum(values);
+
+        return (double)sum / values.Length;
+    }
 }
