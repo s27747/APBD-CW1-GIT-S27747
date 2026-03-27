@@ -1,7 +1,6 @@
 ﻿using APBD_CW1_GIT_S27747;
 
-int[] values = { 9, 4, 6, 1, 8 };
-
+int[] values = { 100, 200, 300 };
 try
 {
     int sum = StatisticsHelper.CalculateSum(values);
