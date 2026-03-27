@@ -6,8 +6,12 @@ try
 {
     int sum = StatisticsHelper.CalculateSum(values);
     double average = StatisticsHelper.CalculateAverage(values);
+    int max = StatisticsHelper.CalculateMax(values);
+    
     Console.WriteLine($"Sum: {sum}");
     Console.WriteLine($"Average: {average:F2}");
+    Console.WriteLine($"Max: {max}");
+
 }
 catch (Exception exception)
 {
