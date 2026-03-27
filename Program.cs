@@ -2,6 +2,7 @@
 
 int[] values = { 5, 10, 15, 20 };
 
+
 try
 {
     int sum = StatisticsHelper.CalculateSum(values);
