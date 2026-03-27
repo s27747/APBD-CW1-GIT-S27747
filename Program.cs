@@ -7,7 +7,7 @@ try
     int sum = StatisticsHelper.CalculateSum(values);
     double average = StatisticsHelper.CalculateAverage(values);
     Console.WriteLine($"Sum: {sum}");
-    Console.WriteLine($"Average: {average}");
+    Console.WriteLine($"Average: {average:F2}");
 }
 catch (Exception exception)
 {
