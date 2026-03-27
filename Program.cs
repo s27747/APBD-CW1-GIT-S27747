@@ -1,6 +1,6 @@
 ﻿using APBD_CW1_GIT_S27747;
 
-int[] values = { 2, 4, 6, 8 };
+int[] values = { 9, 4, 6, 1, 8 };
 
 try
 {
